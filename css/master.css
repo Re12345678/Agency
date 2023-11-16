@@ -260,6 +260,18 @@ cursor: pointer;
 }
 }
 
+@media (max-width:992px) {
+    .welcom .container{
+        margin-left: 28%;
+    }
+
+    .welcom h2{
+        margin-left: 30%;
+    }
+  .welcom{
+    height: 118vh;
+  }
+}
 @media (max-width:767px) {
     .welcom h2{
         font-size: 30px;
@@ -273,6 +285,7 @@ cursor: pointer;
     margin-top: -15%;
     height: 182vh;
     overflow: hidden;
+    margin-top: -3%;
 }
 .feature .container{
     margin-left: 10%;
@@ -356,6 +369,20 @@ opacity: 1;
         margin-left: 17%;
     }
 }
+
+@media (max-width:992px) {
+    .feature .container{
+margin-left: 9%;
+    }
+}
+@media (max-width:767px) {
+    .feature{
+
+    }
+    .feature .container{
+        margin-left: 7%;
+    }
+}
 @media (max-width:767px) {
     .feature .container{
         margin-left: 5%;
@@ -429,16 +456,21 @@ opacity: 1;
 }
 @media (max-width:1300px) {
     .Offer{
-        margin-top: 2%;
+        margin-top: -1%;
+        margin-left: 3%;
     }
     .Offer .container{
-        margin-left: 7%;
+        margin-left: 13%;
     }
 }
 @media (max-width:992px) {
     .Offer{
         margin-top: -8%;
         margin-left: 3%;
+        height: 235vh;
+    }
+    .Offer .container{
+        margin-left: 22%;
     }
 }
 @media (max-width:767px) {
@@ -740,8 +772,10 @@ opacity: 1;
     }
     .staff p{
         width: 73%;
-        padding-left: 25%;
-        margin-bottom: 13px;
+        padding-left: 31%;
+        margin-bottom: 18px;
+        padding-top: 3%;
+        color: whitesmoke;
 
     }
 }
