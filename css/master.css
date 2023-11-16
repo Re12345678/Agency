@@ -281,6 +281,11 @@ cursor: pointer;
         margin-left: -10%;
     }
 }
+@media (max-width:992px) {
+    .welcom .container{
+        margin-left: 6%;
+    }
+}
 .feature{
     margin-top: -15%;
     height: 182vh;
@@ -377,7 +382,7 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
     .feature{
-
+        margin-left: -1%;
     }
     .feature .container{
         margin-left: 7%;
@@ -476,7 +481,10 @@ margin-left: 9%;
 @media (max-width:767px) {
     .Offer{
         margin-left: 1%;
-        height: 185vh;
+        height: 262vh;
+    }
+    .Offer .container{
+        margin-left: -1%;
     }
     .Offer h2{
         margin-left: 23%;
@@ -755,7 +763,12 @@ margin-left: 9%;
 .Offer .header{
     margin-top: -4%;
 }
-
+@media (max-width:767px) {
+    .staff .data img{
+        left: 6%;
+        top: -34px;
+    }
+}
 @media (max-width:767px) {
     .staff{
 
@@ -845,6 +858,18 @@ margin-left: 9%;
     .team .trainee i:hover{
         color:#4a2f25;
         cursor: pointer;
+    }
+    @media (max-width:992px) {
+        .team{
+            height: 173vh;
+        }
+        .team .container{
+            display: flex;
+            flex-direction: column;
+        }
+        .team .trainee{
+            margin-bottom: 4%;
+        }
     }
     @media (max-width:767px) {
         .team{
