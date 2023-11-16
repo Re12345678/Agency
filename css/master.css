@@ -481,7 +481,7 @@ margin-left: 9%;
 @media (max-width:767px) {
     .Offer{
         margin-left: 1%;
-        height: 188px;
+        /* height: 188px; */
     }
     .Offer .container{
         margin-left: -1%;
@@ -556,7 +556,7 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
    .choose{
-    height: 104vh;
+    height: 100vh;
    }
    .choose .container{
     display: flex;
@@ -971,7 +971,7 @@ margin-left: 9%;
 
 @media (max-width:767px) {
     .news{
-        height: 247vh;
+        height: 260vh;
     }
     .news .container{
         display: flex;
