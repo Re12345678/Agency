@@ -481,6 +481,7 @@ margin-left: 9%;
 @media (max-width:767px) {
     .Offer{
         margin-left: 1%;
+        margin-top: 20%;
         /* height: 188px; */
     }
     .Offer .container{
@@ -557,7 +558,7 @@ margin-left: 9%;
 @media (max-width:767px) {
    .choose{
     height: 100vh;
-    margin-top: -116%;
+    margin-top: -90%;
    }
    .choose .container{
     display: flex;
@@ -609,6 +610,11 @@ margin-left: 9%;
 .stat .container .item h4{
     color: white;
     font-size: 21px;
+}
+@media (max-width:767px) {
+    .stat{
+        margin-top: 47%;
+    }
 }
 /* pricing section */
 .Pricing{
@@ -972,7 +978,7 @@ margin-left: 9%;
 
 @media (max-width:767px) {
     .news{
-        height: 260vh;
+        height: 320vh;
     }
     .news .container{
         display: flex;
