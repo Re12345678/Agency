@@ -278,7 +278,7 @@ cursor: pointer;
         margin-left: 16%;
     }
     .welcom{
-        margin-left: -10%;
+        margin-left: -12%;
     }
 }
 @media (max-width:992px) {
@@ -382,7 +382,7 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
     .feature{
-        margin-left: -1%;
+        margin-left: -4%;
     }
     .feature .container{
         margin-left: 7%;
@@ -480,7 +480,7 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
     .Offer{
-        margin-left: 1%;
+        margin-left: -3%;
         margin-top: 20%;
         /* height: 188px; */
     }
@@ -557,7 +557,7 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
    .choose{
-    height: 100vh;
+    height: 118vh;
     margin-top: -90%;
    }
    .choose .container{
@@ -613,7 +613,7 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
     .stat{
-        margin-top: 47%;
+        margin-top: 64%;
     }
 }
 /* pricing section */
@@ -778,11 +778,13 @@ margin-left: 9%;
 }
 @media (max-width:767px) {
     .staff{
-
+        height: 50vh;
+        margin-top: 28%;
     }
     .staff .container{
         display: flex;
         flex-direction: column;
+        padding-top: 54px;
     }
     .staff .member{
 
